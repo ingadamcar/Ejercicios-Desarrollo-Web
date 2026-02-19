@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas y tablas en HTML</title>
+</head>
+<body>
+    <!-- Lista desordenada -->
+     <ul>
+        <li>Manzanas</li>
+        <li>Plátanos</li>
+        <li>Uvas</li>
+     </ul>
+
+     <!-- Lista ordenada -->
+      <ol>
+        <li>Apartamentos</li>
+        <li>Casas</li>
+        <li>Lotes</li>
+      </ol>
+
+<!-- Lista de definición: Son como diccionarios 
+que permiten colocar items o elementos y 
+la definicion para cada uno -->
+       <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de marcado de hipertexto</dd>
+        <dt>CSS</dt>
+        <dd>Lenguaje de hojas de estilo utilizado
+            para dar estilo a los documentos HTML.
+        </dd>
+       </dl>
+
+       <!-- Tablas básica -->
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ubicación</th>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>25</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Lucia</td>
+                <td>35</td>
+                <td>Barcelona</td>
+            </tr>
+            <tr>
+                <td>Martha</td>
+                <td>22</td>
+                <td>Bogotá</td>
+            </tr>
+        </table>
+        <br>
+        
+        <!-- Tabla mejorada -->
+         <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ubicación</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>Carlos</td>
+                        <td>25</td>
+                        <td>Madrid</td>
+                    </tr>
+                    <tr>
+                        <td>Lucia</td>
+                        <td>35</td>
+                        <td>Barcelona</td>
+                    </tr>
+                    <tr>
+                        <td>Martha</td>
+                        <td>22</td>
+                        <td>Bogotá</td>
+                </tbody>
+            </thead>
+         </table>
+         <br>
+
+         <!-- Tabla avanzada -->
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th colspan="2">Descripción</th>
+                <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Laptop</td>
+                    <td>Marca</td>
+                    <td>HP</td>
+                    <td>$800.00</td>
+                </tr>
+                <tr>
+                    <td>Procesador</td>
+                    <td>Intel Core i7</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Smartphone</td>
+                    <td colspan="2">Samsung Galaxy S21</td>
+                    <td>$700.00</td>
+                </tr>
+            </tbody> <!-- colspan es para unir en 2 o más columnas una celda
+            rowspan es para unir en 2 o más filas una celda  -->  
+        </table>
+
+        <!-- Lista anidada -->
+    <ul>
+        <li>
+                Comprar Viveres
+            <ul>
+                <li>Leche</li>
+                <li>Pan</li>
+                <li>Fruta
+                    <ul>
+                        <li>Manzanas</li>
+                        <li>Plátanos</li>
+                        <li>Naranjas</li>
+                    </ul>
+                </li>
+                <li>Verduras
+                    <ul>
+                        <li>Espinacas</li>
+                        <li>Brócoli</li>
+                        <li>Zanahorias</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Lavar el carro</li>
+        <li>Hacer ejercicio</li>
+    </ul>
+
+
+</body>
+</html>
