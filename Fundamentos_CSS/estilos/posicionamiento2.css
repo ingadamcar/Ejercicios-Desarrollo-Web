@@ -1,0 +1,34 @@
+.caja{
+    background-color: orangered;
+    height: 200px;
+    width: 200px;
+    /* margin: 10px; */
+    display: inline-block;
+}
+
+/* 3. Posicionamiento absolute:
+
+El posicionamiento absolute coloca un elemento en una posición específica dentro de su elemento contenedor más cercano con una posición relativa, absoluta o fija. 
+La propiedad position: absolute permite que el elemento se posicione en relación con el contenedor más cercano que tenga un valor de posición distinto de static. Si no se encuentra un contenedor con posición diferente a static, el elemento se posicionará en relación con el elemento raíz del documento (generalmente el <body>).*/
+.especial{
+    background-color: blueviolet;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.contenedor{
+    position: relative;
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+}
+
+.elemento-absoluto{
+    background-color: olive;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}

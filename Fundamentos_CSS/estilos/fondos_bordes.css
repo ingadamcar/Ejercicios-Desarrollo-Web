@@ -1,0 +1,37 @@
+/* EJEMPLO 1: SE PUEDE HACER DE ESTA MANERA PERO YA NO SE USA*/
+#caja1{
+    background-color: yellowgreen;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: blue; */
+    border: 3px solid blue;
+
+/* Redondear bordes */
+border-radius: 10px;
+
+}
+
+#caja2{
+    background-color: rgb(56, 51, 51);
+    color: #fff;
+    border-top: orangered solid 4px;
+    border-left: rgb(79, 232, 243) dotted 3px;
+    border-right: yellow double 3px;
+    border-bottom: rg6b(56, 182, 7) solid 8px;
+    border-radius: 10px 20px 10px 20px;
+}
+
+#caja3{
+    background-image: url('../imagenes/rueda.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 700px;
+    height: 1200px;
+    border-radius: 10px 20px;
+}
+
+#caja4{
+    border: 2px solid black;
+    background: url("../imagenes/naranja.png") no-repeat  center;
+}

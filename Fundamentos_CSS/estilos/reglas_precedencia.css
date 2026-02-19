@@ -1,0 +1,23 @@
+/* p{  
+    font-size: 36px;
+    color: blue;
+} */
+
+#elemento1{ 
+    color: blue;
+}
+
+.caja-elemento1{
+    color: red !important;
+}
+/* Se utiliza el !important cuando se quiere priorizar una clase de un ID */
+
+p{
+    color: red;
+    font-size: 22px;
+}
+
+p{
+    color: green;
+    font-size: 36px;
+}

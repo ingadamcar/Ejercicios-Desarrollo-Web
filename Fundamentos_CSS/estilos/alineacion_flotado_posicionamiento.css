@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+}
+
+.contenedor{
+    max-width: 960px;
+    margin: 50px auto;
+    /* text-align: center; */
+}
+
+.caja{
+    background: rgb(106, 221, 106);
+    color: black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.caja h3{
+    text-align: center;
+}
+
+/* .caja p{
+    text-align: right;
+} */
+
+/* LA TECNICA DE "FLOAT" PRACTICAMENTE YA NO SE USA, ESTOS SOLO SON EJEMPLOS DE LO QUE SE HACIA ANTES */
+#caja2{
+float: left;
+width: 68%;
+}
+
+#caja3{
+float: right;
+width: 30%;
+}
+
+#caja4{
+    background: blue;
+}
+
+/* Servia para eliminar sobreposicionamiento indeseados en los divs */
+.clear_fix{
+    clear: both;
+}

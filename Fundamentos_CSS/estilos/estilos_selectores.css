@@ -1,0 +1,65 @@
+/* Selector universal - Se usa "*" */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* Selector por elemento */
+h1{
+    font-size: 48px;
+    background-color: blue;
+    color: #fff;
+}
+
+h2{
+    font-size: 36px;
+    color: brown;
+}
+
+/* Selector por ID - Se usa "#" */
+
+/* Es una mala práctica usar nombres de colores para los IDs, es mejor nombrarlos con un nombre neutral para que en posteriores modificaciones solo sea necesario cambiar el color en CSS y no el nombre desde el HTML. Cabe recordar que los IDs solo conviene usarlos cuando son elementos unicos en la página, si se va a repetir un estilo en diferentes titulos o parrafos, se utiliza el "class" */
+
+/* h2#color-verde{
+    color: green;
+} */
+
+h2#subtitulo-encabezado{
+    color: orangered;
+}
+
+/* Selector por clase - Se usa "." */
+.subtitulo-encabezado{
+    color: orangered;
+}
+/* NOTA: Para las clases no es necesario llamar al elemento "h2", "h1", "p", etc, basta con solo poner el punto (.) y el nombre de la clase para que se apliquen los atributos indicados */
+
+.borde-gris{
+    border: 2px solid black;
+}
+
+/* Selector multiple - Se usan "," comas */
+
+h1, p, .borde-gris{
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+/* Selector de descendencia, child - nested */
+
+/* ul li{
+    list-style: square;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid red;
+} */
+/* padding = interlineado */
+
+/* Selector de hijos directo */
+
+ul > li{
+    list-style: square;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    border: 1px solid red;
+}

@@ -1,0 +1,62 @@
+a{
+    font-size: 24px;
+    color: green;
+    text-decoration: none;
+}
+
+/* Pseudo clase - Se usa ":" */
+
+/* hover, se usa cuando el cursor pasa por encima del elemento indicado */
+a:hover{
+    color: red;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+/* Active: se usa cuando se da un click sobre el elemento */
+a:active{
+    text-decoration: dotted;
+    color: black;
+}
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.caja1:hover{
+    background-color: brown;
+}
+
+/* Pseudo clases nth-child() */
+li:nth-child(odd){
+background-color: #e21414;
+color: white;
+}
+
+li:nth-child(even){
+    background-color: #db14e2;
+    color: white;
+    font-size: 22px;
+    }
+
+/* Pseudo elementos before & after */
+
+p::before{
+    content: "→";
+}
+
+p::after{
+    content: "HOLA";
+}
+
+/* ::first-line & ::first-letter */
+p::first-letter{
+    font-size: 32px;
+}
+
+/* Selector por atributo */
+input[type="text"]{
+    border: 3px solid blue;
+}

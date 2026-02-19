@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: brown;
+    width: 80%;
+    height: 500px;
+    /* margin: 10%; */
+}
+
+.elemento{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+    padding: 10%;
+}

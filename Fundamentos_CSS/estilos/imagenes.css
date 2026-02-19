@@ -1,0 +1,14 @@
+.caja{
+    text-align: center;
+}
+
+.imagen1{
+    width: 480px;
+    height: 360px;
+    border: 2px solid brown;
+    /* margin: 100px; */
+    opacity: 0.6;
+    border-radius: 14px 8px 6px 12px;
+    background-color: #044104de;
+    display: inline;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica EMMET</title>
+</head>
+
+<body>
+    <!-- <div class="caja">
+        <h3 class="Titulo"></h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, eaque.</p>
+    </div> -->
+
+    <!-- Operadores anidados NESTING: Sirven para crear estructuras anidadas con el simbolo "<"con el emmet abreviation -->
+
+    <!-- Ej: div<ul<li -->
+
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- Operadores hermanos SIBLINGS: Sirven para crear estructuras que están al mismo nivel. Se utiliza el simbolo "+" para indicarle a EMMET que estaran al mismo nivel -->
+
+    <!-- EJ: div+p+bq -->
+
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <!-- Combinado -->
+    <!-- div+div>p>span+em -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+
+    <!-- ^ :  Sirve para indicarle a EMMET cuantas posiciones o niveles se tiene que devolver la etiqueta deseada despues del o de los simbolos "^". En este ejemplo el blockquote se devuelve hasta el nivel del primer div -->
+    <!-- EJ: div+div>p>span+em^^^bq -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+    <!-- Multiplicacion * -->
+    <!-- ul>li*5 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- Sin Agrupar -->
+    <!-- div>header>ul>li*2>a+footer>p -->
+    <div>
+        <header>
+            <ul>
+                <li>
+                    <a href=""></a>
+                    <footer>
+                        <p></p>
+                    </footer>
+                </li>
+                <li>
+                    <a href=""></a>
+                    <footer>
+                        <p></p>
+                    </footer>
+                </li>
+            </ul>
+        </header>
+    </div>
+
+    <!-- Con agrupacion -->
+    <!-- div>(header>ul>li*2>a)+footer>p -->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+    <!-- #: Este simbolo se usan con los divs para cuando se quiere indicar rapida y abreviadamente el ID del div -->
+     <!-- div#header -->
+      <div id="header"></div>
+
+    <!-- El punto se utiliza para las clases -->
+     <!-- div.caja -->
+      <div class="caja"></div>
+
+    <!-- Ejemplo avanzado -->
+     <!-- div#header+div.pagina+div#footer.clase1.clase2.clase3 -->
+     <div id="header"></div>
+     <div class="pagina"></div>
+     <div id="footer" class="clase1 clase2 clase3"></div>
+
+     <!-- Atributos -->
+      <!-- td[title= "Hola mundo" colspan=3] -->
+      <td title="" colspan="3"></td>
+
+    <!-- Sin numeracion de items -->
+     <!-- ul>li.item*5 -->
+     <ul>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+     </ul>
+
+     <!-- Con numeracion de items -->
+      <!-- ul>li.item$*5 -->
+      <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+      </ul>
+
+      <!-- Ejemplo de orden reverso -->
+      <!-- ul>li.item$@-*5 -->
+      <ul>
+        <li class="item5"></li>
+        <li class="item4"></li>
+        <li class="item3"></li>
+        <li class="item2"></li>
+        <li class="item1"></li>
+      </ul>
+
+      <!-- Desde un numero especifico -->
+      <!-- ul>li.item$@10*20 -->
+      <ul>
+        <li class="item10"></li>
+        <li class="item11"></li>
+        <li class="item12"></li>
+        <li class="item13"></li>
+        <li class="item14"></li>
+        <li class="item15"></li>
+        <li class="item16"></li>
+        <li class="item17"></li>
+        <li class="item18"></li>
+        <li class="item19"></li>
+        <li class="item20"></li>
+        <li class="item21"></li>
+        <li class="item22"></li>
+        <li class="item23"></li>
+        <li class="item24"></li>
+        <li class="item25"></li>
+        <li class="item26"></li>
+        <li class="item27"></li>
+        <li class="item28"></li>
+        <li class="item29"></li>
+      </ul>
+
+      <!-- Crear texto -->
+       <!-- a{Click aqui} -->
+       <a href="">Click aqui</a>
+
+       <!-- Documentacion de EMMET para futuras dudas y consultas: https://docs.emmet.io/abbreviations/syntax/ -->
+
+</body>
+
+</html>

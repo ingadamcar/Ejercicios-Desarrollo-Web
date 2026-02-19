@@ -1,0 +1,29 @@
+body {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: "Oswald", sans-serif;
+}
+
+
+/* h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#empresa p span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(211, 139, 44);
+} */
+
+.articulo2{
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: blueviolet;
+    line-height: 1.6em;
+    letter-spacing: 2px;
+}

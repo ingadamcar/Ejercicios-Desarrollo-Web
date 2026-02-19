@@ -1,0 +1,42 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    color: red;
+}
+
+.caja1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+h2{
+    color: #00ff00;
+}
+/* El valor hexadecimal de los colores está basado en la saturación RGB de los colores y para indicar dicha saturación, está dividido digito a digito de la siguiente manera: "RRGGBB". En el cual "RR" (RED) representa los dos digitos más significativos, "GG" (GREEN) los digitos centrales y "BB" (BLUE) los digítos menos significativos */
+
+
+/* Sistema RGB van de 0 a 255 decimal */
+h3{
+    color: rgb(96, 43, 107);
+}
+
+/* Sistema RGBA (alpha) van de 0 a 255 decimal. Se refiere a la transparencia, entre más cercano a 0 mas transparente será */
+h4{
+    color: rgba(230, 14, 111, 0.13);
+    font-size: 48px;
+}
+
+/* Puedes utilizar valores HSL (Hue, Saturation, Lightness) o HSLA (Hue, Saturation, Lightness, Alpha) para definir colores. El valor de "Hue" representa el tono, "Saturation" la saturación y "Lightness" la luminosidad. */
+
+h5{
+    color: hsla(60, 100%, 50%, 0.7);
+    font-size: 32px;
+}
+
+/* Puedes utilizar la palabra clave "transparent" para definir un color completamente transparente. */
+h6{
+    color: transparent;
+}

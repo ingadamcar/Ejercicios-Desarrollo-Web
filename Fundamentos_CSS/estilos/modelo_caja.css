@@ -1,0 +1,55 @@
+/* Box Model:
+
+El modelo de caja se refiere a cómo se representan los elementos HTML en una página web. Cada elemento HTML se representa como una caja rectangular, y esta caja está compuesta por tres partes: el contenido, el padding y los márgenes.
+
+    Contenido (Content): Es el área real donde se muestra el contenido del elemento, como texto, imágenes u otros elementos anidados. La anchura y la altura del contenido se definen con las propiedades width y height.
+
+    Padding: Es el espacio entre el contenido y el borde del elemento. Puedes ajustar el espacio de padding utilizando las propiedades padding-top, padding-right, padding-bottom y padding-left, o la propiedad abreviada padding.
+
+    Márgenes (Margin): Es el espacio entre el borde del elemento y otros elementos adyacentes. Los márgenes se definen con las propiedades margin-top, margin-right, margin-bottom y margin-left, o la propiedad abreviada margin. */
+
+
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    width: 400px;
+    /* margin */
+    margin: 20px;
+
+    /* margin individual */
+    /* margin-left: 0;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 0; */
+
+    /* margin en una sola linea */
+    /*      top-rgt-bot-left (en ese orden) */
+    /* margin: 0 30px 50px 20px; */
+    padding: 100px;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    padding: 30px 20px 10px 40px;
+}
+
+.caja h3{
+    margin-bottom: 20px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.caja p{
+    margin: 0;
+    border: 1px solid yellow;
+    padding: 12px;
+}
