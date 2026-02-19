@@ -1,0 +1,17 @@
+.caja{
+    font-size: 12px;
+}
+/* Aqui no importa si primero se le asigna 12px al .caja ya que al usar REM ignora esta asignación y toma el font-size del root del navegador, es decir, si el navegador tiene por defecto 16px o cualquier otro número, la unidad de medida REM usara este dato para multiplicarlo */
+
+.caja h2{
+    font-size: 4rem;
+}
+
+.caja p{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+ul{
+    font-size: 1.4rem;
+}

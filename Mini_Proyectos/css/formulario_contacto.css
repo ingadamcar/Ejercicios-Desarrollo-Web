@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #afabab;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+label, input, textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(7, 75, 75);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(1, 1, 56);
+}
